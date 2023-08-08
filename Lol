@@ -73,7 +73,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
         game.Players:Chat(".punish2 " .. letter)
         game.Players:Chat(".setspamdelay 0.4")
         game.Players:Chat(".spam pm " .. letter .. " sorry, just a test.")
-        wait(6)   game.Players:Chat(".setspamdelay 0.0000001")
+        wait(6)           game.Players:Chat(".setspamdelay 0.0000001")
         game.Players:Chat(".stop")
     end
 end)
